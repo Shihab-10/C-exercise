@@ -4,8 +4,8 @@ int main() {
     printf("Enter the number of terms: ");
     scanf("%d", &n);
     printf("The first %d Fibonacci numbers are: ");
-    for (int i = 1; i <= n; ++i) {
-        c = a+b;
+    for (int i=1;i<=n;++i) {
+        c=a+b;
         a=b;
         b=c;
         printf("%d ",a);
