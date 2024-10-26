@@ -5,10 +5,11 @@ int main() {
     scanf("%d", &n);
     printf("The first %d Fibonacci numbers are: ");
     for (int i=1;i<=n;++i) {
+           printf("%d ",a);
         c=a+b;
         a=b;
         b=c;
-        printf("%d ",a);
+     
     }
     return 0;
 }
