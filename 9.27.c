@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a, b = 0, c = 2;
-    printf("Enter the number of prime numbers to display: ");
+    printf("Enter the number of prime numbers: ");
     scanf("%d", &a);
     printf("The first %d prime numbers are: ", a);
     for (int i = 0; b < a; c++) {
